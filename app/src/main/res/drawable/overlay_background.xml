@@ -1,0 +1,21 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background color of the shape -->
+    <solid android:color="#FF5722" /> <!-- Use your desired color here -->
+
+    <!-- Add corner radius for rounded edges -->
+    <corners android:radius="12dp" />
+
+    <!-- Optional: Add padding inside the shape -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+
+    <!-- Optional: Add stroke (border) around the shape -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />
+</shape>
